@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Personal Portfolio Website
 
-# Run and deploy your AI Studio app
+A modern, responsive portfolio website built with React, TypeScript, and Vite. Features a clean design with sections for About, Skills, Projects, Certifications, and Contact.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1rrAba1PXOYL94JTpzvLCRRLfNW5Luw6R
+- 🎨 Modern, responsive design with Tailwind CSS
+- ⚡ Fast development with Vite
+- 📱 Mobile-first responsive layout
+- 🚀 Automatic deployment to GitHub Pages
+- 🎯 TypeScript for type safety
+- 📄 Single Page Application (SPA) with proper routing
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages with GitHub Actions
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+- Node.js (version 18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173/portfolio/`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run deploy` - Build and deploy to GitHub Pages
+
+## Deployment
+
+This project is configured for automatic deployment to GitHub Pages. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+
+## Project Structure
+
+```
+portfolio/
+├── components/          # React components
+├── public/             # Static assets
+├── .github/workflows/  # GitHub Actions
+├── dist/               # Production build
+└── src/                # Source files
+```
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
